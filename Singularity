@@ -13,7 +13,7 @@ From: alpine
 	export PATH=/:$PATH
 
 %runscript
-	diamond | makedb
+	diamond
 
 
 ## Sample Singularity file created during NSF Cyber Carpentry 2018. Parts taken from the original Diamond dockerfile and lecture notes.
